@@ -4,7 +4,7 @@ import { ReactComponent as FaceBookIcon } from "./icons/facebook.svg";
 import { ReactComponent as LinkedInIcon } from "./icons/linkedin.svg";
 import { ReactComponent as InstagramIcon } from "./icons/instagram.svg";
 
-export const social = [
+export const socials = [
     {
         name: "GitHub",
         url: "http://github.com/VITALIKXXX",

@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { ThemeProvider } from "styled-components";
-import { PersonalHomepage } from '../../features/personalHomePage/PersonalHomepages';
+import { PersonalHomepage } from '../../features/personalHomePage/PersonalHomepage';
 import { GlobalStyle } from "./GlobalStyle";
 import { themeDark, themeLight } from "./theme";
 import { Normalize } from "styled-normalize";
