@@ -4,7 +4,7 @@ import personalHomepageReducer from '../features/personalHomePage/personalHomepa
 import themeReducer from '../common/ThemeSwitch/themeSlice';
 import saga from './saga';
 
-const createSagaMiddleware = createSagaMiddleware();
+const sagaMiddleware = createSagaMiddleware();
 
 const store = configureStore({
     reducer: {
