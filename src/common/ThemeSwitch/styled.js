@@ -22,7 +22,7 @@ text-transform: uppercase;
 font-weight: bold;
 margin-right: 12px;
 
-@media(max-width: ${({ theme }) => theme.brekpoints.mobilMax}px) {
+@media(max-width: ${({ theme }) => theme.breakpoints.mobilMax}px) {
     display: none;
 }
 `;
