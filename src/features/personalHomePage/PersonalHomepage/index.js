@@ -1,4 +1,4 @@
-import { MainInformation } from "./MainInformation";
+import { MainInformation } from "./MainInformacion";
 import { Skills } from "./Skills";
 import { Container, Icon } from "./styled";
 import { skills, nextSkills } from "./skillsData";

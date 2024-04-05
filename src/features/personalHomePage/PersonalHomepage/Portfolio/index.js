@@ -4,7 +4,7 @@ import { StyledGithubIcon, Header, Section, MyRecentProjects } from "./styled";
 import { SubHeader } from "../SubHeader";
 import { githubUsername } from "./githubUsername";
 import { useDispatch } from "react-redux";
-import { fetchRepositories } from "../../presonalHomepageSlice";
+import { fetchRepositories } from "../../personalHomepageSlice";
 
 export const Portfolio = () => {
     const dispatch = useDispatch();
