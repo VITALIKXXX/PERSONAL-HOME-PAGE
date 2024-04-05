@@ -1,8 +1,15 @@
 import { ErrorBox } from "./ErrorBox";
 import { Loading } from "./Loading";
 import { Repositories } from "./Repositories";
+import { useSelector } from "react-redux";
+import { selectRepositoriesStatus, selectRepositories } from "../../../personalHomepageSlice";
 
-export const Content = ({ status, repositories }) => {
+export const Content = () => {
+
+    const status = useSelector(selectRepositoriesStatus);
+    const repositories = useSelector(selectRepositories);
+
+
     switch (status) {
         case "initial":
             return null;
@@ -13,7 +20,7 @@ export const Content = ({ status, repositories }) => {
         case "error":
             return <ErrorBox />;
 
-        case "succes":
+        case "success":
             return <Repositories repositories={repositories} />
 
         default:
