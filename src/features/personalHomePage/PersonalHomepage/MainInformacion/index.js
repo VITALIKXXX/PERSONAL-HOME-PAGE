@@ -1,4 +1,4 @@
-import tomaszBrylskiProfile from "./profile.jpeg";
+import vitalliTomenkoProfile from "./profile.jpeg";
 import { Avatar, StyledButtonLink, ButtonIcon, Name, Summary, ThisIs, Wrapper, Icon } from "./styled";
 import faceIcon from "./faceIcon.png";
 import laptopIcon from "./laptopIcon.png";
@@ -6,10 +6,10 @@ import { email } from "../email";
 
 export const MainInformation = () => (
     <Wrapper>
-        <Avatar src={tomaszBrylskiProfile} alt="Vitalii Tomenko" />
+        <Avatar src={vitalliTomenkoProfile} alt="Vitalii Tomenko" />
         <div>
             <ThisIs>This is</ThisIs>
-            <Name>Tomasz Brylski</Name>
+            <Name>Vitalii Tomenko</Name>
             <Summary>
                 <Icon src={faceIcon} alt="" />
                 <Icon src={laptopIcon} alt="" />
