@@ -3,12 +3,14 @@ import { Content } from "./Content";
 import { StyledGithubIcon, Header, Section, MyRecentProjects } from "./styled";
 import { SubHeader } from "../SubHeader";
 import { githubUsername } from "./githubUsername";
-import { useDispatch } from "react-redux";
-import { fetchRepositories } from "../../personalHomepageSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchRepositories, selectRepositories, selectRepositoriesStatus } from "../../personalHomepageSlice";
 
 export const Portfolio = () => {
     const dispatch = useDispatch();
 
+    const repositoriesStatus = useSelector(selectRepositoriesStatus);
+    const repositories = useSelector(selectRepositories);
 
 
     useEffect(() => {
@@ -24,7 +26,10 @@ export const Portfolio = () => {
                 <MyRecentProjects>My recent projects</MyRecentProjects>
             </Header>
 
-            <Content />
+            <Content
+                status={repositoriesStatus}
+                repositories={repositories}
+            />
 
         </Section>
     );

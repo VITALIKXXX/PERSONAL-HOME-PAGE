@@ -1,15 +1,8 @@
 import { ErrorBox } from "./ErrorBox";
 import { Loading } from "./Loading";
 import { Repositories } from "./Repositories";
-import { useSelector } from "react-redux";
-import { selectRepositoriesStatus, selectRepositories } from "../../../personalHomepageSlice";
 
-export const Content = () => {
-
-    const status = useSelector(selectRepositoriesStatus);
-    const repositories = useSelector(selectRepositories);
-
-
+export const Content = ({ status, repositories }) => {
     switch (status) {
         case "initial":
             return null;

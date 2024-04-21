@@ -4,7 +4,7 @@ import { PersonalHomepage } from '../../features/personalHomePage/PersonalHomepa
 import { GlobalStyle } from "./GlobalStyle";
 import { themeDark, themeLight } from "./theme";
 import { Normalize } from "styled-normalize";
-import { selectIsDarkTheme } from '../../common/ThemeSwitch/themeSlice';
+import { selectIsDarkTheme } from '../../common/themeSlice';
 
 export const App = () => {
     const isDarkTheme = useSelector(selectIsDarkTheme);
