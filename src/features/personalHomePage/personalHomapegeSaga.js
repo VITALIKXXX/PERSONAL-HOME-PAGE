@@ -4,16 +4,16 @@ import { getRepositories } from './personalHomepageAPI';
 
 const loadingDelay = 2_000;
 
-function* fetchRepositoriesHandler({ payload: username}) {
+function* fetchRepositoriesHandler({ payload: username }) {
     try {
         yield delay(loadingDelay);
         const repositories = yield call(getRepositories, username);
         yield put(fetchRepositoriesSuccess(repositories));
     } catch (error) {
-            yield put(fetchRepositoriesError());
-        }
+        yield put(fetchRepositoriesError());
     }
+}
 
-    export function* personalHomepageSaga() {
-        yield takeLatest(fetchRepositories.type, fetchRepositoriesHandler);
-    }
+export default function* personalHomepageSaga() {
+    yield takeLatest(fetchRepositories.type, fetchRepositoriesHandler);
+}
