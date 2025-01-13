@@ -3,7 +3,6 @@ import { ButtonLink } from "../ButtonLink";
 import { ReactComponent as EnvelopeIcon } from "./envelope.svg";
 
 export const Wrapper = styled.header`
-    margin-top: -30px;
     display: grid;
     grid-template-columns: auto 1fr;
     grid-gap: 64px;
