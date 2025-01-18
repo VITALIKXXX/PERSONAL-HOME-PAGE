@@ -13,7 +13,7 @@ export const MainInformation = () => (
             <Summary>
                 <Icon src={faceIcon} alt="" />
                 <Icon src={laptopIcon} alt="" />
-                My path .....
+                I am a passionate JavaScript developer with experience in creating projects using JavaScript and React. I enjoy solving problems, learning new technologies, and building applications that make an impact. Constantly improving my skills and working towards becoming a professional developer.
             </Summary>
             <StyledButtonLink href={`mailto:${email}`} title={email}>
                 <ButtonIcon />
