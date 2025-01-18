@@ -3,10 +3,7 @@
  ![Animation](https://github.com/VITALIKXXX/PERSONAL-HOME-PAGE/blob/bd343030ceb115624329540be59fdf82022d1cd3/Animation%20%20NEWwww.gif)
 
 ## Demo
-
-https://vitalikxxx.github.io/PERSONAL-HOME-PAGE/
-
-
+[PERSONAL-HOME-PAGE](https://vitalikxxx.github.io/PERSONAL-HOME-PAGE/)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
