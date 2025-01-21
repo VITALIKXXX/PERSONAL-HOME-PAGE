@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/PERSONAL-HOME-PAGE/static/js/main.866a9c31.js",
+    "static/js/453.ab1848ff.chunk.js": "/PERSONAL-HOME-PAGE/static/js/453.ab1848ff.chunk.js",
+    "static/media/faceIcon.png": "/PERSONAL-HOME-PAGE/static/media/faceIcon.e4b069cc29bf52bf51c0.png",
+    "static/media/profile.jpeg": "/PERSONAL-HOME-PAGE/static/media/profile.629cb011c0081fccfff7.jpeg",
+    "static/media/laptopIcon.png": "/PERSONAL-HOME-PAGE/static/media/laptopIcon.433e6acb3db1df7880da.png",
+    "static/media/sun.svg": "/PERSONAL-HOME-PAGE/static/media/sun.700782415f8049da7a22b45f9f842d12.svg",
+    "static/media/github.svg": "/PERSONAL-HOME-PAGE/static/media/github.b2710b64ebcb9fc43c3b99a0ca1d9d21.svg",
+    "static/media/warning.svg": "/PERSONAL-HOME-PAGE/static/media/warning.d11a8a46540c31733a7650db63158b6e.svg",
+    "static/media/linkedin.svg": "/PERSONAL-HOME-PAGE/static/media/linkedin.8e4ac02ce7feebba4972d3b4e4c08775.svg",
+    "static/media/envelope.svg": "/PERSONAL-HOME-PAGE/static/media/envelope.77f8b6df4100909ad86a40bff6873707.svg",
+    "index.html": "/PERSONAL-HOME-PAGE/index.html",
+    "static/media/facebook.svg": "/PERSONAL-HOME-PAGE/static/media/facebook.d0e03d1efdc7532f13ccb0ceb616d2d6.svg",
+    "static/media/spinner.svg": "/PERSONAL-HOME-PAGE/static/media/spinner.120dff0a86733d924e2d24bb0ab338f7.svg",
+    "static/media/bullet.svg": "/PERSONAL-HOME-PAGE/static/media/bullet.41506939970e6369828dfce4b6919035.svg",
+    "main.866a9c31.js.map": "/PERSONAL-HOME-PAGE/static/js/main.866a9c31.js.map",
+    "453.ab1848ff.chunk.js.map": "/PERSONAL-HOME-PAGE/static/js/453.ab1848ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.866a9c31.js"
+  ]
+}
